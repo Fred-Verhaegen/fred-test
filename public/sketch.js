@@ -10,7 +10,7 @@ function setup() {
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('https://fredgame.herokuapp.com');
+  socket = io.connect('http://valuer-cameras-88474.bitballoon.com/');
   // We make a named event called 'mouse' and write an
   // anonymous callback function
   socket.on('mouse',
