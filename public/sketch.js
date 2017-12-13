@@ -26,10 +26,8 @@ function setup() {
 }
 
 function draw() {
-  // Nothing
-}
-
-function mouseDragged() {
+  background(0)
+  
   // Draw some white circles
   fill(255);
   noStroke();
@@ -37,6 +35,7 @@ function mouseDragged() {
   // Send the mouse coordinates
   sendmouse(mouseX,mouseY);
 }
+
 
 // Function for sending to the socket
 function sendmouse(xpos, ypos) {
